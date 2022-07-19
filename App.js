@@ -28,7 +28,9 @@ export default function App() {
             <Blogs/>
           </View>
           <View>
-            <Footer/>
+            <ScrollView>
+              <Footer/>
+            </ScrollView>
           </View>
         </ScrollView>
     </View>
